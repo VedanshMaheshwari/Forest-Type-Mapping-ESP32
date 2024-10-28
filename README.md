@@ -38,65 +38,6 @@ The neural network model is designed with a small architecture suitable for cons
    ```bash
    git clone https://github.com/VedanshMaheshwari/forest-type-mapping-ESP32.git
 
-Navigate into the project directory:
-
-bash
-Copy code
-cd ForestSpectra
-Create a virtual environment (optional but recommended):
-
-bash
-Copy code
-python -m venv venv
-Activate the virtual environment:
-
-On Windows:
-bash
-Copy code
-venv\Scripts\activate
-On macOS/Linux:
-bash
-Copy code
-source venv/bin/activate
-Install the required libraries. If you have a requirements.txt file, create one with the necessary libraries:
-
-text
-Copy code
-tensorflow
-tensorflow-lite
-numpy
-pandas
-scikit-learn
-Then, install the libraries:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-1. Data Preprocessing
-Run data_preprocessing.py to clean and preprocess the dataset for training.
-
-2. Model Training
-Use model_training.py to train the neural network on the preprocessed data.
-
-bash
-Copy code
-python scripts/model_training.py
-3. Model Conversion
-Run model_conversion.py to convert the trained model into TensorFlow Lite format.
-
-bash
-Copy code
-python scripts/model_conversion.py
-4. Deployment on ESP32
-To deploy the TFLite model on the ESP32, use esp32_deployment.py.
-
-bash
-Copy code
-python scripts/esp32_deployment.py
-Model Performance
-The trained model has been evaluated on various metrics, including accuracy, precision, and recall, to ensure reliable forest type classification.
-
-Contributing
+## Contributing
 Feel free to open issues or submit pull requests for improvements.
 
