@@ -30,6 +30,7 @@ The neural network model is designed with a small architecture suitable for cons
 - `data/` - Contains the dataset files (training and testing).
 - `model/` - Includes the saved Keras model (`forest_model.h5`) and the converted TFLite model (`forest_model.tflite`).
 - `scripts/` - Includes Python scripts for data preprocessing, model training, TFLite conversion, and ESP32 deployment.
+- `Forest_ESP32/` - Includes Forest_ESP32.ino with the generated header file to run on ESP32.
 - `README.md` - Project documentation.
 
 ## Installation
