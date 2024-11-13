@@ -40,5 +40,5 @@ The neural network model is designed with a small architecture suitable for cons
    git clone https://github.com/VedanshMaheshwari/forest-type-mapping-ESP32.git
 
 ## Contributing
-Feel free to open issues or submit pull requests for improvements.
+Feel free to open issues or submit pull requests for improvements!!
 
